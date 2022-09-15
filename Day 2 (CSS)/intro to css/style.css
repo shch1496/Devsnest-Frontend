@@ -1,0 +1,47 @@
+        /* Element selector */
+        /* h1{
+            color: red;
+            font-size: 40px;
+        }
+         */
+
+        /* Heading selector */
+         /* #first-heading {
+            color: royalblue;
+         }
+          */
+         /* class selector */
+         /* .brown{
+            color: brown;
+         }
+
+         .royal-blue{
+            color: royalblue;
+         } */
+
+         /* .box{
+            padding: 24px 48px;
+            border: 2px solid; */
+            /* margin-bottom: 16px;
+            margin-top: 16px; */
+            /* margin: 16px 0px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+         } */
+         
+         /* div{
+            font-size: 14px
+         } */
+
+         /* p{
+            font-size: 2em;
+         } */
+
+         p{
+            font-size: 2rem;
+            display: inline-block;
+         }
+

@@ -1,0 +1,15 @@
+/* div{
+    
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 0;
+    border-bottom: 100px solid red;
+} */
+
+.triangle {
+    width: 100px;
+    height: 100px;
+    background: red linear-gradient(red, blue);
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  }
