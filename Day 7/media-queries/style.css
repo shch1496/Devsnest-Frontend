@@ -1,0 +1,32 @@
+@media print {
+    body {
+        background: gray;
+        color: black;
+    }
+}
+
+@media screen and (orientation: portrait){
+    body::after {
+        content: "Portrait";
+    }
+}
+
+@media screen and (orientation: landscape){
+    body::after {
+        content: "Landscape";
+    }
+}
+
+/** Viewport less than 500px**/
+@media (max-width: 500px) {
+   body{
+    background-color: lightgreen;
+   }
+}
+
+/** viewport greater than 800px**/
+@media (min-width: 800px){
+    body{
+        background-color: royalblue;
+    }
+}
